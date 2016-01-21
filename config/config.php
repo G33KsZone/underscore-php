@@ -20,7 +20,7 @@ return [
         'getLast' => 'last',
         'select' => 'filter',
         'sortBy' => 'sort',
-    	'distinct' => 'unique'	
+        'distinct' => 'unique'	
     ],
 
 ];
