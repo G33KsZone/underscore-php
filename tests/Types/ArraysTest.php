@@ -699,6 +699,14 @@ class ArraysTest extends UnderscoreTestCase
 
         $this->assertEquals([1, 2], $result);
     }
+    
+    public function testCanGetDistinctArray()
+    {
+        $a = [1, 1, 2];
+        $result = Arrays::distinct($a);
+
+        $this->assertEquals([1, 2], $result);
+    }
 
     public function testCanIndexBy()
     {
