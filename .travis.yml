@@ -10,6 +10,10 @@ php:
   - 7.0
   - hhvm
 
+before_script:
+  ## Disabling xdebug
+  - phpenv config-rm xdebug.ini
+
 env:
   matrix:
     - PREFER_LOWEST="--prefer-lowest"
